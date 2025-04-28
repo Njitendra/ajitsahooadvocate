@@ -75,18 +75,21 @@ nav .container {
   padding: 120px 0;
   text-align: center;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
 }
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 .hero p {
   font-size: 1.5rem;
   margin-bottom: 30px;
+  font-weight: 300;
 }
 .btn {
-  background: white;
-  color: #007bff;
+  background: #007bff;
+  color: white;
   padding: 12px 30px;
   text-decoration: none;
   font-weight: bold;
