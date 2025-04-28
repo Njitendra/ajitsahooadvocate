@@ -128,103 +128,37 @@ nav .logo {
   background-color: #0056b3;
 }
 
-/* About Section */
-#about {
+/* Office Contact Section */
+#office-contact {
   background-color: #ffffff;
   padding: 50px 0;
-  color: #555;
 }
 
-.about-container p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
-/* Services Section */
-#services {
-  background-color: #f8f9fa;
-  padding: 50px 0;
-}
-
-.services-container {
+.office-contact-container {
   text-align: center;
 }
 
-.service-boxes {
+.contact-info {
   display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
   justify-content: center;
+  gap: 50px;
   margin-top: 30px;
 }
 
-.service-box {
-  background-color: #ffffff;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  border-radius: 10px;
-  width: 300px;
-  transition: transform 0.3s ease;
-  margin-bottom: 20px;
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-.service-box:hover {
-  transform: translateY(-10px);
-}
-
-.service-box h3 {
+.contact-item i {
+  font-size: 2rem;
   color: #007bff;
-  margin-bottom: 15px;
 }
 
-.service-box p {
-  font-size: 1rem;
-  line-height: 1.5;
+.contact-item h3 {
+  font-size: 1.5rem;
+  color: #007bff;
 }
 
-/* Contact Section */
-#contact {
-  background-color: #ffffff;
-  padding: 50px 0;
-  text-align: center;
-}
-
-.contact-container form {
-  width: 60%;
-  margin: auto;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.contact-form button {
-  background-color: #007bff;
-  color: white;
-  padding: 15px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-}
-
-.contact-form button i {
-  margin-right: 8px;
-}
-
-.contact-form button:hover {
-  background-color: #0056b3;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: #ffffff;
-  padding: 15px 0;
-  text-align: center;
-}
+.contact-item
