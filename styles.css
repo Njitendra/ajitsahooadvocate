@@ -71,11 +71,21 @@ nav .container {
 /* Hero Section */
 .hero {
   background: url('https://images.unsplash.com/photo-1593519842246-0844313a36eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  position: relative;
   color: white;
   padding: 120px 0;
   text-align: center;
-  position: relative;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero h1 {
   font-size: 3rem;
