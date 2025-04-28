@@ -32,6 +32,9 @@ nav {
   background-color: #ffffff;
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav .logo {
@@ -43,17 +46,22 @@ nav .logo {
 .nav-links {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .nav-links li {
-  margin-left: 25px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
   font-size: 1.2rem;
+}
+
+.nav-links a i {
+  margin-right: 8px;
 }
 
 .nav-links a:hover {
@@ -66,6 +74,12 @@ nav .logo {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-cta i {
+  margin-right: 8px;
 }
 
 .btn-cta:hover {
@@ -104,6 +118,10 @@ nav .logo {
   font-size: 1.2rem;
   text-decoration: none;
   border-radius: 30px;
+}
+
+.btn i {
+  margin-right: 8px;
 }
 
 .btn:hover {
@@ -193,6 +211,10 @@ nav .logo {
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
+}
+
+.contact-form button i {
+  margin-right: 8px;
 }
 
 .contact-form button:hover {
