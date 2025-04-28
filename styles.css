@@ -134,7 +134,9 @@ nav .logo {
 
 .service-boxes {
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 30px;
 }
 
@@ -142,7 +144,15 @@ nav .logo {
   background-color: #ffffff;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
 }
 
 .service-box h3 {
