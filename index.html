@@ -1,78 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajit Sahoo Advocate</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajit Sahoo Advocate</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Ajit Sahoo - Expert Legal & Tax Consultant for Income Tax, Sales Tax, and Legal Representation in India. Trusted advocate with over 10 years of experience.">
+  <meta name="keywords" content="Lawyer India, Income Tax, Sales Tax, Legal Consultant, Ajit Sahoo, Tax Advocate">
+  <meta name="author" content="Ajit Sahoo Advocate">
+  
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="container">
-            <div class="logo">Ajit Sahoo</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<!-- Loading Spinner -->
+<div id="loading">
+    <div class="spinner"></div>
+</div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Expert Tax & Legal Consultation</h1>
-            <p>Income Tax | Sales Tax | Legal Advisory</p>
-            <a href="#contact" class="btn">Get in Touch</a>
-        </div>
-    </section>
+<!-- Navbar -->
+<nav>
+  <div class="container">
+    <div class="logo">Ajit Sahoo</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Ajit Sahoo is a professional advocate specializing in income tax, sales tax, and legal services for businesses and individuals across India. Providing tailored legal strategies for over a decade.</p>
-        </div>
-    </section>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>Expert Tax & Legal Consultation</h1>
+    <p>Income Tax | Sales Tax | Legal Advisory</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </div>
+</section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <h2>Services</h2>
-            <div class="service-boxes">
-                <div class="service-box">
-                    <h3>Income Tax Filing</h3>
-                    <p>Comprehensive income tax return filing with maximum benefits.</p>
-                </div>
-                <div class="service-box">
-                    <h3>Sales Tax Consultancy</h3>
-                    <p>Expert advice and assistance on GST, VAT, and sales tax regulations.</p>
-                </div>
-                <div class="service-box">
-                    <h3>Legal Representation</h3>
-                    <p>Trusted legal representation for audits, appeals, and compliance matters.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- About Section -->
+<section id="about" data-aos="fade-up">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Ajit Sahoo is a professional advocate specializing in income tax, sales tax, and legal services for businesses and individuals across India. Providing tailored legal strategies for over a decade.</p>
+  </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Reach out for a free consultation or to discuss your legal needs.</p>
-            <a href="mailto:ajit@lawyer.com?subject=Legal Consultation Request" class="btn">Email Me</a>
-        </div>
-    </section>
+<!-- Services Section -->
+<section id="services" data-aos="fade-up">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="service-boxes">
+      <div class="service-box">
+        <h3>Income Tax Filing</h3>
+        <p>Comprehensive income tax return filing with maximum benefits.</p>
+      </div>
+      <div class="service-box">
+        <h3>Sales Tax Consultancy</h3>
+        <p>Expert advice and assistance on GST, VAT, and sales tax regulations.</p>
+      </div>
+      <div class="service-box">
+        <h3>Legal Representation</h3>
+        <p>Trusted legal representation for audits, appeals, and compliance matters.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>© 2025 Ajit Sahoo Advocate. All rights reserved.</p>
-        </div>
-    </footer>
+<!-- Contact Section -->
+<section id="contact" data-aos="fade-up">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Reach out for a free consultation or to discuss your legal needs.</p>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2025 Ajit Sahoo Advocate. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+
+  window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+  });
+</script>
 
 </body>
 </html>
