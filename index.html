@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ajit Sahoo Advocate</title>
-  
+
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Ajit Sahoo - Expert Legal & Tax Consultant for Income Tax, Sales Tax, and Legal Representation in India. Trusted advocate with over 10 years of experience.">
-  <meta name="keywords" content="Lawyer India, Income Tax, Sales Tax, Legal Consultant, Ajit Sahoo, Tax Advocate">
+  <meta name="description" content="Ajit Sahoo - Expert Legal & Tax Consultant for Income Tax, Sales Tax, and Legal Representation in India.">
+  <meta name="keywords" content="Lawyer India, Income Tax, Sales Tax, Legal Consultant, Advocate, Ajit Sahoo">
   <meta name="author" content="Ajit Sahoo Advocate">
-  
+
   <!-- AOS Animation CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  
+
   <!-- Main CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -21,7 +21,7 @@
 
 <!-- Loading Spinner -->
 <div id="loading">
-    <div class="spinner"></div>
+  <div class="spinner"></div>
 </div>
 
 <!-- Navbar -->
@@ -76,14 +76,20 @@
 
 <!-- Contact Section -->
 <section id="contact" data-aos="fade-up">
-  <div class="container">
-    <h2>Contact</h2>
-    <p>Reach out for a free consultation or to discuss your legal needs.</p>
+  <div class="container contact-container">
+    <h2>Contact Me</h2>
+    <p class="contact-subtitle">Get a free consultation. I usually respond within a few hours!</p>
     <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email Address" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Write your message..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
   </div>
 </section>
